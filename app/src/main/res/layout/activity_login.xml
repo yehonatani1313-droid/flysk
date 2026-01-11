@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="#B3E5FC">
+
+    <!-- כותרת גדולה למעלה -->
+    <TextView
+        android:text="התחברות"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"/>
+
+    <!-- שם משתמש -->
+    <EditText
+        android:id="@+id/usernameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="שם משתמש"
+        android:inputType="textPersonName"/>
+
+
+
+    <!-- סיסמה -->
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="סיסמה"
+        android:inputType="textPassword"
+        android:layout_marginTop="12dp"/>
+
+    <!-- שכחתי סיסמה -->
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:text="שכחתי סיסמה?"
+        android:textColor="#0D47A1"
+        android:layout_marginTop="12dp"/>
+
+    <!-- כפתור התחברות -->
+    <Button
+        android:id="@+id/loginBtn"
+        android:text="התחברות"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1976D2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"/>
+
+    <!-- כפתור משתמש חדש -->
+    <Button
+        android:id="@+id/registerBtn"
+        android:text="משתמש חדש"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1976D2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
+
